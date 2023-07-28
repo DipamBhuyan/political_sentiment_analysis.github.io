@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Political Sentiment Analysis Result</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <style>
+        body {
+            padding: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center">Political Sentiment Analysis Result</h1>
+        <div class="card mt-4">
+            <div class="card-body">
+                <h5 class="card-title">Statement:</h5>
+                <p class="card-text">{{ statement }}</p>
+            </div>
+        </div>
+        <div class="card mt-4">
+            <div class="card-body">
+                <h5 class="card-title">Prediction:</h5>
+                <p class="card-text">{{ prediction }}</p>
+            </div>
+        </div>
+        <div class="card mt-4">
+            <div class="card-body">
+                <h5 class="card-title">Sentiment:</h5>
+                <p class="card-text">{{ sentiment }}</p>
+            </div>
+        </div>
+        <a href="/" class="btn btn-primary mt-3">Go Back</a>
+    </div>
+</body>
+</html>
