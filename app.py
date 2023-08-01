@@ -51,4 +51,4 @@ def predict():
     return render_template('result.html', statement=statement, prediction=float_sentiment, sentiment=sentiment)
 
 if __name__ == '__main__':
-    app.run(debug=False,host='0.0.0.0')
+    app.run(debug=True,port=8000)
